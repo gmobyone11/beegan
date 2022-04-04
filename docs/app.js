@@ -9,7 +9,9 @@ angular.module('myApp', [
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
-
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
+function removeHash () { 
+  history.pushState("", document.title, window.location.pathname
+                                                     + window.location.search);
+}
