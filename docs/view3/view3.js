@@ -10,6 +10,5 @@ angular.module('myApp.view3', ['ngRoute'])
 }])
 
 .controller('View3Ctrl', [function() {
-  removeHash();
+  
 }]);
-$('.carousel-control').on('click', function(e){ e.preventDefault(); });

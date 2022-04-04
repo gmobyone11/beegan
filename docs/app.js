@@ -11,7 +11,3 @@ angular.module('myApp', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
-function removeHash () { 
-  history.pushState("", document.title, window.location.pathname
-                                                     + window.location.search);
-}
