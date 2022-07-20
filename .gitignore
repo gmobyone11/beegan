@@ -1,5 +1,5 @@
 logs/*
-.vs
+.vs/
 !.gitkeep
 node_modules/
 docs/lib/
