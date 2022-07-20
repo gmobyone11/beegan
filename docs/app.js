@@ -4,10 +4,10 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.home',
-  'myApp.view2',
-  'myApp.view3',
-  'myApp.view4',
-  'myApp.view5',
+  'myApp.about',
+  'myApp.gallery',
+  'myApp.nikki',
+  'myApp.games',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
