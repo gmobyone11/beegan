@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.gallery',
   'myApp.nikki',
   'myApp.games',
+  'myApp.contact',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
