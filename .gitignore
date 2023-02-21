@@ -6,3 +6,4 @@ docs/lib/
 tmp
 .DS_Store
 .idea
+*.sln
