@@ -227,7 +227,7 @@ While AngularJS is client-side-only technology and it is possible to create Angu
 do not require a backend server at all, we recommend serving the project files using a local
 web server during development to avoid issues with security restrictions (sandbox) in browsers. The
 sandbox implementation varies between browsers, but quite often prevents things like cookies, XHR,
-etc to function properly when an HTML page is opened via the `file://` scheme instead of `http://`.
+etc to function properly when an HTML page is opened via the `file://` scheme instead of `https://`.
 
 ### Running the App during Development
 
@@ -286,12 +286,12 @@ For more information on AngularJS please check out [angularjs.org][angularjs].
 [http-server]: https://github.com/indexzero/http-server
 [jasmine]: https://jasmine.github.io/
 [jdk]: https://wikipedia.org/wiki/Java_Development_Kit
-[jdk-download]: http://www.oracle.com/technetwork/java/javase/downloads
+[jdk-download]: https://www.oracle.com/technetwork/java/javase/downloads
 [karma]: https://karma-runner.github.io/
-[local-app-url]: http://localhost:8000/index.html
+[local-app-url]: https://localhost:8000/index.html
 [node]: https://nodejs.org/
 [npm]: https://www.npmjs.org/
-[protractor]: http://www.protractortest.org/
-[selenium]: http://docs.seleniumhq.org/
+[protractor]: https://www.protractortest.org/
+[selenium]: https://docs.seleniumhq.org/
 [travis]: https://travis-ci.org/
 [travis-docs]: https://docs.travis-ci.com/user/getting-started
