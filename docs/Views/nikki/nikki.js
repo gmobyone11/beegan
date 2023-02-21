@@ -4,8 +4,8 @@ angular.module('myApp.nikki', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/nikki', {
-    templateUrl: 'nikki/nikki.html',
-    controller: 'NikkiCtrl'
+      templateUrl: '/docs/Views/nikki/nikki.html',
+      controller: 'NikkiCtrl'
   });
 }])
 
