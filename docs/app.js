@@ -12,5 +12,6 @@ angular.module('myApp', [
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/home'});
+    $routeProvider.otherwise({ redirectTo: '/home' });
+    $locationProvider.hashPrefix('');
 }]);
