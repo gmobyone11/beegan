@@ -7,3 +7,5 @@ tmp
 .DS_Store
 .idea
 *.sln
+/beegan.sln.exclude
+/.vs/beegan/v17/.suo
